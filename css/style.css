@@ -1,0 +1,251 @@
+
+body{font-family: 'Work Sans', sans-serif;
+padding:0;
+margin:0;
+}
+
+header{
+	
+	padding:30px;
+	height:96px;
+	display:flex;
+	
+
+}
+	.logo{
+		
+	}
+	img{
+		
+		padding-right:139px;
+padding-left:20px;		
+	}
+		
+		
+	nav{
+	flex:1;
+	}
+			
+	ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	
+	}
+	li{
+		display:inline-block;
+		font-size:20px;
+		font-weight:light;
+padding:10px;
+		
+	}
+	.active{
+		font-weight:bold;
+		
+	}			
+			
+	a{
+		color:#ABADAE;padding:20px;}
+	.cover{
+	height:798px;
+	
+	Background-image:url('../images/style 3.jpg'),url('../images/Group-43.svg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:0;
+	margin:0;
+	}	
+	.slider{}
+	.slide{}
+	.image{ 
+	}
+	.contente{
+		position:absolute;
+		left:0;right:20%;
+		top:0;bottom:0;
+		z-index:500;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+	
+	}
+	.title{
+		font-size:57px;margin:20px;
+		color:#255A7E;
+	}
+	.subtitle{
+		font-size:16px;	margin:20px;
+		color:#0C3653;
+	}	
+	.cover-button{
+			display:inline-block;
+			padding:10px;
+		
+			
+	}
+	
+	.play {
+		background-color:#F98169;
+		width:62;
+		height:60;
+		font-weight:bold;
+		font-size:18px;
+		border: none;
+		color:white;
+		text-align:center;
+		border-radius: 50%;
+		float:right;
+	
+		 box-shadow: 0 8px 16px 0 #F98169;
+		}
+	
+
+	.order{
+	background-color:#F98169;
+		width:204;
+		height:70;
+		border-radius: 2%;
+		font-weight:bold;
+		font-size:18px;
+		border: none;
+		color:white;
+		text-align:center;
+		box-shadow: 0 8px 16px 0 #F98169;
+		 
+	}
+	.moreinfo{
+		background-image:url('../images/lcz9nxhoslo-brooke-lark.svg');
+		height:1871px;
+		margin:100px;
+	}
+	.sec1{ 
+		display:inline;
+	height:772px;
+
+	    
+}
+	.largimg{
+		display:inline;
+		float:left;
+		
+	}
+	.sec1text{
+	display:inline;
+	
+	}
+	.sec2text{
+	
+display:inline-block;
+	float:left;}
+	.title1{
+	font-size:36px;	
+	margin:20px;
+	color:#0C3653;
+	}
+	.subtitle1{font-size:16px;
+	color:#8B8E8F;}
+	.sec2text{}
+	.sec2{
+		display:inline-block;
+		
+	}
+	.rows{
+	display:inline-block;	
+		
+	}
+	.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  float:rigth;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.ourstory{
+
+		justify-content:center;
+		align-items:center;
+		background-position:center;
+
+	
+}
+.ourstorycontent{
+
+	background-image:url('../images/zv0lvbep.svg');
+	width:1062.67px;
+	height:457px;
+		justify-content:center;
+		align-items:center;
+	margin:20%;
+		
+
+	background-origin: content-box;
+	background-repeat: no-repeat;
+
+		background-position:center center;
+}
+.stitle{
+		justify-content:center;
+		align-items:center;
+font-size:36px;	
+	margin:20px;
+	float:center;
+	color:white;
+}
+.ssubtitle{
+justify-content:center;
+		align-items:center;
+font-size:36px;	
+	margin:20px;
+	color:white;
+}	
+
+.sbtn{
+	border: 2px solid black;
+	border-color: #4CAF50;
+color:white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	  background-color: Transparent;
+    background-repeat:no-repeat;
+ border-radius: 5px;
+ justify-content:center;
+		align-items:center;
+		float:center;
+	
+}
+.sbtn:hover
+ {
+   background-color: #46a049;
+   color:white;
+}
